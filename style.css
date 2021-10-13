@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #2B0433 27.26%, #A033A6 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background: #ecf4ff;
+  margin: 3rem 4rem;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 4rem;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+.foto{
+  border-radius: 460px;
+  max-height: 10rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cabecalho div {
+  margin-left: 1rem;
+}
+h1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.redes img{
+  border-radius: 460px;
+  max-height: 3rem;
+  background:#ecf4ff;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  border-radius: 6.25rem;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #333333 27.49%, #333333 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin: 2rem 0rem;
+  padding: 2rem;
+}
+.projetos h2 {
+  color: #ecf4ff;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.projetos p {
+  text-decoration: none;
+  color: #ecf4ff;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border-left: #BD008E 5px solid;
+  padding-left: 0.2rem;
+}
+
+.projetos li {
+  list-style: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #763787 27.26%, #A56AA8 96.03%);
+}
+.dark .container {
+  background: #16161A;
+  color: #f6f6f6;
+}
+.dark .tema button {
+  background: #16161A;
+  color: #f6f6f6;
+  border: 2px solid #f6f6f6;
+}
+.dark .projetos{
+    background: linear-gradient(230.65deg, #4D4D4D.49%, #4D4D4D 83.19%);
+}
